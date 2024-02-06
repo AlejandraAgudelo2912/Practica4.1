@@ -1,8 +1,6 @@
 import java.time.LocalDateTime;
 import java.util.Scanner;
 
-import EjercicioPOO.Alumno;
-
 public class Principal{
     public static Scanner teclado = new Scanner(System.in);
 
