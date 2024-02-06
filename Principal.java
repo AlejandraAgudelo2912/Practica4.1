@@ -7,7 +7,7 @@ public class Principal{
         MostrarFecha();
 	}
 
-    public static voi MostrarFecha(){
+    public static void MostrarFecha(){
         LocalDateTime hoy = LocalDateTime.now();  
 	        
 	    String fecha = hoy.getHour()+":"+hoy.getMinute()+":"+hoy.getSecond()+" "+hoy.getDayOfMonth()+"/"+hoy.getMonth()+"/"+hoy.getYear();
