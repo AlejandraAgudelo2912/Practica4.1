@@ -3,7 +3,7 @@ import java.time.LocalDateTime;
 public class Principal{
 	public static void main (Strings[]arvs){
 
-		
+		System.out.println("Hola Mundo");
         MostrarFecha();
 	}
 
@@ -14,3 +14,4 @@ public class Principal{
 		System.out.println("Fecha y hora: "+ fecha);
     }
 }
+
