@@ -89,16 +89,14 @@ class Usuario {
 	//constructor
 	
 	
-	public Alumno() {
+	public Usuario() {
 		
 	}
 	
-	public Alumno(String nombre, String apellidos, String nre, String email, String direccion){
+	public Usuario(String nombre, String apellidos, String email){
 		setNombre(nombre);
 		setApellidos(apellidos);
-		setNre(nre);
 		setEmail(email);
-		setDireccion(direccion);
 	}
 
 }
